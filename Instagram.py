@@ -9,7 +9,7 @@ L7N = telebot.TeleBot(Tok)
 @L7N.message_handler(commands=['start'])
 def start(message):
             	L7N1 = types.InlineKeyboardMarkup()
-            	L7Ntele = types.InlineKeyboardButton('✨ Dev ✨',url ='https://t.me/g_4_q')
+            	L7Ntele = types.InlineKeyboardButton('✨ Dev ✨',url ='https://t.me/lIIHII')
             	L7N1.add(L7Ntele)
             	photo = f"t.me/{message.from_user.username}"
             	L7Ncall = f"[{message.from_user.first_name}]({photo})"
@@ -44,7 +44,7 @@ def start(message):
 ————————×————————
 - Email Sent ↝</strong> {rL7N}
 <strong>————————×————————
-- By ↝ @g_4_q </strong>
+- By ↝ @lIIHII </strong>
             			''',parse_mode='html')
             				else:
             					L7N.send_message(message.chat.id,'*• اليوزر غير صحيح او تم ارسال ريست له من قبل.!*',parse_mode="Markdown")
